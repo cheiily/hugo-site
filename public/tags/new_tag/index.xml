@@ -9,9 +9,9 @@
     <atom:link href="/tags/new_tag/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>new title</title>
-      <link>/post/1/01/01/new-title/</link>
+      <link>/blog/post/001/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/post/1/01/01/new-title/</guid>
+      <guid>/blog/post/001/</guid>
       <description>CONTENT </description>
     </item>
   </channel>

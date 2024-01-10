@@ -7,7 +7,7 @@
 
   {{ .Content }}
 
-
+<!-- TODO organize this into blog/post, blog/category, blog/tags -> layouts (single should do...),  -->
   {{if not .IsHome }}
     <ul>
      {{ $pages := .Pages }}
@@ -16,15 +16,14 @@
       {{ range (where $pages "Section" "post" ) }}
        <li>
          <span class="date">{{ .Date.Format "2006/01/02" }}</span>
-         <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+         -> <a href="{{ .RelPermalink }}">{{ .Title | markdownify | lower }}</a>
        </li>
        {{ end }}
      {{ else }}
        {{ $pages = .FirstSection.RegularPages }}
        {{ range (where $pages "Section" "!=" "") }}
        <li>
-         <span class="date">{{ .Date.Format "2006/01/02" }}</span>
-         <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+         <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a> - {{ .Description | lower }}
        </li>
        {{ end }}
      {{ end }}
