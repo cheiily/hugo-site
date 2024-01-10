@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+
+<div class="content-wrapper">
+  <h1>「 ✦ ─── ⋆⋅ {{ .Title | markdownify }} ⋅⋆ ── ✦ 」</h1>
+
+  {{ .Content }}
+
+  <ul>
+   {{ $pages := .Pages }}
+    {{ $pages = .Site.RegularPages }}
+    {{ range (where $pages "Section" "post" ) }}
+     <li>
+       <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+       -> <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+     </li>
+     {{ end }}
+ </ul>
+
+</div>
+{{ partial "footer.html" . }}

@@ -23,16 +23,16 @@ noClasses = true
 style = "monokai"
 tabWidth = 4
 
-# [taxonomies]
-#   category = "category"
-#   tag = "tag"
+[taxonomies]
+  category = "blog/categories"
+  tag = "blog/tags"
 
 
 [permalinks]
 post = "/blog/post/:slug/"
-#[permalinks.term]
-#   categories = "/blog/categories/:slug/"
-#   tags = "/blog/tags/:slug/"
+[permalinks.term]
+category = "/blog/categories/:slug/"
+tag = "/blog/tags/:slug/"
 #[[menu.main]]
 [[menu.feed]]
 name = "blog"

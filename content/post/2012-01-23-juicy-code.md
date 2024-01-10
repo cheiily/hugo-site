@@ -1,11 +1,11 @@
 ---
-title: Juicy Code
+title: template-code
 author: Open Source
 date: '2012-01-23'
-categories:
-  - Code
-tags:
-  - Juicy
+blog/categories:
+  - new_cat
+blog/tags:
+  - new_tag1
 slug: juicy-code
 ---
 

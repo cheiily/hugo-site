@@ -2,30 +2,19 @@
 
 <div class="content-wrapper">
   {{if not .IsHome }}
-  <h1>{{ .Title | markdownify }}</h1>
+  <h1>{{ .Title | markdownify | lower }}//</h1>
   {{ end }}
 
   {{ .Content }}
 
-<!-- TODO organize this into blog/post, blog/category, blog/tags -> layouts (single should do...),  -->
   {{if not .IsHome }}
     <ul>
      {{ $pages := .Pages }}
-     {{ if (eq .Title "blog") }}
-      {{ $pages = .Site.RegularPages }}
-      {{ range (where $pages "Section" "post" ) }}
-       <li>
-         <span class="date">{{ .Date.Format "2006/01/02" }}</span>
-         -> <a href="{{ .RelPermalink }}">{{ .Title | markdownify | lower }}</a>
-       </li>
-       {{ end }}
-     {{ else }}
-       {{ $pages = .FirstSection.RegularPages }}
-       {{ range (where $pages "Section" "!=" "") }}
-       <li>
-         <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a> - {{ .Description | lower }}
-       </li>
-       {{ end }}
+     {{ $pages = .FirstSection.RegularPages }}
+     {{ range (where $pages "Section" "!=" "") }}
+     <li>
+       <a href="{{ .RelPermalink }}">{{ .Title | markdownify | lower }}</a> - {{ .Description | lower }}
+     </li>
      {{ end }}
    </ul>
   {{ end }}

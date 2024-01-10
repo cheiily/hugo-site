@@ -4,4 +4,4 @@ description: "blog nav page"
 ---
 
 [by category](categories/) \
-[by tag](/tags/)
+[by tag](tags/)

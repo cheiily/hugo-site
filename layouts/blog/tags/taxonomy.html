@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+  <h1>{{ .Title | markdownify | lower }}</h1>
+
+{{ $taxonomy := "blog/tags" }}
+{{ range $term, $weightedPages := index .Site.Taxonomies $taxonomy }}
+  {{ with site.GetPage (path.Join $taxonomy $term) }}
+    <strong>{{ .LinkTitle }}</strong>
+  {{ end }}
+  <ul>
+  {{ range $weightedPages }}
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ partial "footer.html" . }}
