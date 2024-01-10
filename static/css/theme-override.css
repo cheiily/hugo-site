@@ -9,3 +9,7 @@ footer {
   font-weight: lighter;
   font-style: italic
 }
+
+#table-of-contents {
+    background-color: #393E41;
+}

@@ -2,6 +2,7 @@
 title: root
 description: "chiihou"
 ---
+
 <a href="https://www.dustloop.com/w/GBVSR/Djeeta">
 <img
   id="foxy"
@@ -12,7 +13,7 @@ description: "chiihou"
 
 ## :sparkles: chiihou :sparkles:
 ### :sparkles: blessing of the earth :sparkles:
-### ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## ~~~~~~~~~~~~~~~~~~~~~~~
 
 Hi, I'm cheily. 
 
@@ -26,6 +27,8 @@ I occasionally try to write some tools that should prove helpful to at least me,
 
 Here you'll find my projects and a personal blog about whatever i find worth mentioning publicly (not a lot). Kinda a middle ground between twitter and linkedin.
 Go ahead and browse, feel free to reach out for any reason (silly reasons encouraged)!
+
+Note: this website is still under construction so things may break, be empty, etc.
 
 ## May your internet travels be 🥮🐉🀅 **fortuitous** 🀅🐉🥮!
 ---
