@@ -1,0 +1,50 @@
+baseurl = "/"
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+languageCode = "en-us"
+theme = "hugo-classic"
+title = "chiihou"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineAnchors = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = "monokai"
+tabWidth = 4
+
+# [taxonomies]
+#   category = "category"
+#   tag = "tag"
+
+
+[permalinks]
+post = "/blog/post/:slug/"
+#[permalinks.term]
+#   categories = "/blog/categories/:slug/"
+#   tags = "/blog/tags/:slug/"
+#[[menu.main]]
+[[menu.feed]]
+name = "blog"
+url = "/blog/"
+weight = 1
+[[menu.feed]]
+name = "projects"
+url = "/projects/"
+weight = 2
+
+
+[params]
+custom_css = ["/css/theme-override.css"]
+description = "A simple, minimal blog for those who love text."
+footer = "built with [hugo](https://gohugo.io/) | themed [hugo-classic](https://github.com/goodroot/hugo-classic) by goodroot | cheily 2024"
