@@ -1,0 +1,15 @@
+/*footer div::before {
+    content: "ⓒ "
+}
+*/
+
+footer {
+  font-size: 90%;
+  font-optical-sizing: 50%
+  font-weight: lighter;
+  font-style: italic
+}
+
+#table-of-contents {
+    background-color: #393E41;
+}
