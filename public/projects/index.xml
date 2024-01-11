@@ -12,14 +12,35 @@
       <link>/projects/chiihou/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/chiihou/</guid>
-      <description>/links /inspiration /technologies /implementation /conclusions </description>
+      <description>/links here https://github.com/cheiily/hugo-site /inspiration /technologies Hugo VPS /implementation /conclusions </description>
     </item>
     <item>
       <title>heartblazer</title>
       <link>/projects/heartblazer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/heartblazer/</guid>
-      <description>links inspiration technologies implementation conclusions </description>
+      <description>-&amp;gt; Minimal discord chatbot application providing utility for a local FGC server built with the JDA5 discord API wrapper. -&amp;gt; Allows pin-management for thread-owners within event- and advice-forums. -&amp;gt; Provides a functional base for future expansion if necessary.&#xA;/links https://github.com/cheiily/HeartBlazer /inspiration /technologies JDA5 Java 17 Gradle build system /implementation /conclusions </description>
+    </item>
+    <item>
+      <title>inilib</title>
+      <link>/projects/inilib/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/inilib/</guid>
+      <description>/links https://github.com/cheiily/IniLib /inspiration /technologies C++17 Boost Cmake /implementation /conclusions </description>
+    </item>
+    <item>
+      <title>scoreboard</title>
+      <link>/projects/scoreboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/scoreboard/</guid>
+      <description>GUI Application made with JavaFX. The application is a tool for Tournament Organizers to help manage streaming overlays for match scoreboards. Allows loading, selection, modification of relevant match data with output in the specified path. Allows loading and in-app edition of relevant player data, commentary data, round labeling, etc. Planned features for full release include web-overlays, hosted locally, and data import from tournament management websites such as challonge.&#xA;The project has been under development since spring 2023 and is working towards the first full release, with a couple pre-release builds available.</description>
+    </item>
+    <item>
+      <title>steamlog</title>
+      <link>/projects/steamlog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/steamlog/</guid>
+      <description>Background CLI application frequently polling the Steam API to create a local play history for further analysis. Built in Java.&#xA;/links https://github.com/cheiily/SteamLog_Puller /inspiration /technologies Java 17 /implementation /conclusions </description>
     </item>
   </channel>
 </rss>

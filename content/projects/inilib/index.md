@@ -1,6 +1,6 @@
 +++
-title = '{{ replace .File.ContentBaseName "-" " " | title | lower }}'
-description = ""
+title = 'inilib'
+description = "c++ .ini parser"
 toc = true
 draft = true
 type = "project"
@@ -8,9 +8,15 @@ type = "project"
 
 ## /links
 
+- https://github.com/cheiily/IniLib
+
 ## /inspiration
 
 ## /technologies
+
+- C++17
+- Boost
+- Cmake
 
 ## /implementation
 

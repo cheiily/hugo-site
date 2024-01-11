@@ -5,4 +5,5 @@ title = "{{ replace .File.ContentBaseName "-" " " | title | lower }}"
 date = {{ .Date }}
 slug = "{{ printf "%03d" (len (where site.Pages "Section" "post")) }}"
 draft = true
+type = "blog"
 +++

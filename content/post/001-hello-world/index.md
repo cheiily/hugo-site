@@ -5,6 +5,7 @@ title = "git commit -a -F init_commit.txt"
 date = 2024-01-10T23:44:25+01:00
 slug = "001"
 draft = true
+type = "blog"
 +++
 
 ## This is the first blog post commemorating me finishing work on this template.

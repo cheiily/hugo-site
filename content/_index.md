@@ -17,7 +17,7 @@ description: "chiihou"
 
 Hi, I'm cheily. 
 
-I'm a <br>
+I'm a \
 • third-year 👨‍💻compsci👾 student, \
 • ⛩️animanga🌸 consumer, \
 • leisure 🀅riichi🀄mahjong🀆 player, \
@@ -34,15 +34,13 @@ Note: this website is still under construction so things may break, be empty, et
 ---
 ### links
 - email: cheiily.pm@gmail.com
-- email (more official): cheily.public@gmail.com
-- email (future): contact@cheily.one
-- email (future): contact@cheily.boats
-- email (future): contact@chiihou.one
+- email (future): chiihou@cheily.one
 - github: https://github.com/cheiily
 - twitter (fgc, tech): https://twitter.com/cheily_p
 - discord: https://discord.com/users/302388837525487617
+- for more personal recruitment-purposed media like linkedin, cv, please contact by work@cheily.one.
 
-or leave a message:<br> <!-- TODO change this to api -->
+or leave a message: <!-- TODO change this to api --> \
 << currently in development >>
 <!-- <input type="textarea" id="message" name="t-message" rows="4" cols="50"/>
 <button type="button" id="submit-message" name="b-message" onclick="
