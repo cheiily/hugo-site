@@ -3,6 +3,7 @@ title = 'heartblazer'
 description = "Discord bot providing utility for an FGC server"
 toc = true
 draft = true
+status = "In Progress"
 type = "project"
 +++
 

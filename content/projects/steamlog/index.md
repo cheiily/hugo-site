@@ -3,6 +3,7 @@ title = 'steamlog'
 description = "CLI background app creating steam play history"
 toc = true
 draft = true
+status = ""
 type = "project"
 +++
 
