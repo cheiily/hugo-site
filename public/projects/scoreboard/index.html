@@ -53,6 +53,7 @@
 <h1><span class="title">Scoreboard</span></h1>
 
 <h2 class="description">JavaFX app for managing tournament streaming overlays</h2>
+<h2 class="status">Ongoing | v0.2</h2>
 
 <p class="terms">
   
@@ -70,8 +71,9 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#links">/links</a></li>
-    <li><a href="#inspiration">/inspiration</a></li>
+    <li><a href="#motivation">/motivation</a></li>
     <li><a href="#technologies">/technologies</a></li>
+    <li><a href="#operation">/operation</a></li>
     <li><a href="#implementation">/implementation</a></li>
     <li><a href="#conclusions">/conclusions</a></li>
   </ul>
@@ -82,24 +84,53 @@
 
 <div class="content-wrapper">
   <main>
-    <p>GUI Application made with JavaFX. <br>
+    <p>Note: My focus was temporarily stolen away by <a href="/projects/dustgrain">DustGrain</a>, but this should see some action in the coming months again.</p>
+<p>GUI Application made with JavaFX. <br>
 The application is a tool for Tournament Organizers to help manage streaming overlays for match scoreboards. <br>
 Allows loading, selection, modification of relevant match data with output in the specified path. Allows loading and in-app edition of relevant player data, commentary data, round labeling, etc. <br>
-Planned features for full release include web-overlays, hosted locally, and data import from tournament management websites such as challonge.</p>
+Planned features for full release include web-overlays hosted locally, and data import from tournament management websites such as challonge.</p>
 <p>The project has been under development since spring 2023 and is working towards the first full release, with a couple pre-release builds available. \</p>
 <h2 id="links">/links</h2>
 <ul>
 <li><a href="https://github.com/cheiily/FGC_Scoreboard_filegen">https://github.com/cheiily/FGC_Scoreboard_filegen</a></li>
 </ul>
-<h2 id="inspiration">/inspiration</h2>
+<h2 id="motivation">/motivation</h2>
+<p>Getting into the FGC I became interested in organizing a tournament or two myself, however managing OBS text elements manually seemed like a less than perfect way to manage the overlay. Looking into any pre-existing controllers, I had not found anything notable available free of charge and that&rsquo;s how the idea came to be. <br>
+I was later informed of TSH, which is a great piece software but personally I found it slightly overloaded &amp; confusing to use and customize. Hence, this is remaining an active project for the forseeable future.</p>
 <h2 id="technologies">/technologies</h2>
 <ul>
-<li>JavaFX</li>
-<li>Java 17</li>
+<li>Java 17
+<ul>
 <li>Maven</li>
 </ul>
+</li>
+<li>JavaFX
+<ul>
+<li>Scenebuilder</li>
+</ul>
+</li>
+<li>Ini4j</li>
+<li>OpenCSV</li>
+</ul>
+<h2 id="operation">/operation</h2>
+<p>The basic functionality is contained within the controller tab.
+<img src="controller.png" alt="Preview of the controller tab"></p>
+<p>There the user can select any of the pre-loaded players and their related data, or write it down manually.
+The players&rsquo; related data encompasses: their name/handle, an organization tag and their nationality. The nationality helps select a flag image to be saved into the output folder. Flags are loaded from a separate folder and can be customized to include any sort of images desired, including pride flags, memes, sub-region flags, etc. Currently the flags do not come with the package, but as they belong to the public domain, an optional download will be included in future releases. That covers player data.</p>
+<p>Round data includes the current round label e.g. &ldquo;Winners Semi-finals&rdquo;, Grand Finals indicators (&rsquo;[L]&rsquo; for the player coming from losers bracket, or both during the &lsquo;bracket reset&rsquo;) and score for both players. Similar to the combo boxes, the score can be written in manually, scrolled-through or incremented and decremented via the dedicated control buttons.
+A preset of default round labels comes with the app but can also be customized for the app to load. (Of course, the labels can also be written in manually.)</p>
+<p>General data includes 2 commentator slots and a host slot, with suggestions also pre-loaded from the config directory.</p>
+<p>The remaining two tabs are still work-in-progress:
+• &lsquo;Players&rsquo; allows in-app player data edition, that is then loaded into the drop-down and autocomplete suggestions. In the future external site (like <a href="https://challonge.com">https://challonge.com</a>) bracket import/export might also happen here.
+• &lsquo;App config&rsquo; allows configuration of behaviors like autocomplete suggestions, flag image output, output format selection, etc.</p>
 <h2 id="implementation">/implementation</h2>
+<p>The Graphical User Interface &amp; controller for this app is built with JavaFX, with each of the three main scenes containing their own controlller. These controllers converse with the app&rsquo;s own data manager, responsible for saving data with the help of OutputWriters and OutputFormatters; as well as reading from the provided directory layout. <br>
+As of now the controller&rsquo;s data is still held within the loaded ini file representation and the app&rsquo;s central data manager enables interfacing with that. It is a planned change for a more direct round data structure control, that will only utilize Ini4j for initialization and data dump on-save. <br>
+There is a number of properties for behavior, output, input configuration. These are loaded from a number of .ini and .csv format files - directly configured by the user as a way of bulk data import. <br>
+There is also a number of convenience features, such as scroll-operated combo boxes and search suggestions/autocomplete, the latter being handled by a wrapper to the JFX structure.</p>
+<p>Note: the initial implementation for DataWebSocket (not yet used) was kindly provided by @Jakkzero, a friend from within the EU GBVS community.</p>
 <h2 id="conclusions">/conclusions</h2>
+<p>Other than for me during my own tournaments, the app has proven to at least one other community member, one of the the currently active TO&rsquo;s - a similarminded person not appreciative of TSH&rsquo;s complicated layout. That alone has been a great motivation to keep working on and improving the controller further. :)</p>
 
 
     <code>~/chiihou/projects/scoreboard><a href="javascript:history.back()">cd ..</a></code><br>

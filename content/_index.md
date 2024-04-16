@@ -13,7 +13,6 @@ description: "chiihou"
 
 ## :sparkles: chiihou :sparkles:
 ### :sparkles:🌎 blessing of the earth 🌎:sparkles:
-<!-- todo earth emoji -->
 ## ~~~~~~~~~~~~~~~~~~~~~~~
 
 Hi, I'm cheily. 

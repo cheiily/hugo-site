@@ -53,6 +53,7 @@
 <h1><span class="title">Steamlog</span></h1>
 
 <h2 class="description">CLI background app creating steam play history</h2>
+<h2 class="status">Finished (pt.1) | Closed</h2>
 
 <p class="terms">
   
@@ -70,7 +71,7 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#links">/links</a></li>
-    <li><a href="#inspiration">/inspiration</a></li>
+    <li><a href="#motivation">/motivation</a></li>
     <li><a href="#technologies">/technologies</a></li>
     <li><a href="#implementation">/implementation</a></li>
     <li><a href="#conclusions">/conclusions</a></li>
@@ -88,13 +89,18 @@ Built in Java.</p>
 <ul>
 <li><a href="https://github.com/cheiily/SteamLog_Puller">https://github.com/cheiily/SteamLog_Puller</a></li>
 </ul>
-<h2 id="inspiration">/inspiration</h2>
+<h2 id="motivation">/motivation</h2>
+<p>Frustrated by the lack of any extensive history analysis tool for steam history, as steam only offers playtime and a monthly breakdown with the yearly summary, I decided to write a tool that could gather such info for myself.</p>
 <h2 id="technologies">/technologies</h2>
 <ul>
 <li>Java 17</li>
+<li>logback</li>
 </ul>
 <h2 id="implementation">/implementation</h2>
+<p>The project contains a couple of structures to represent the steam API response value and a connection(request) builder being ran in a looping thread. The tracked profiles can be configured via UID or Vanity ID through config.ini, which also handles the api key as well as refresh behavior configuration - the delay of subsequent requests as well as failed request amount thresholds that controll when to go to the next level of delay, in order to save api calls as Valve puts a daily limit on that.
+Each request is analyzed and if it is different from the last recorded status - it is serialized and saved to file via a customized logback setup. From there it can be analyzed further for a visual representation of the recorded history.</p>
 <h2 id="conclusions">/conclusions</h2>
+<p>This project was my first real look into using a real logging framework and customizing one to my needs, and in that I can declare it successful. Sadly, I have not put this to as much use as I would&rsquo;ve liked to, including not having made the visual analyzer of the saved data. Potential QoL would include wrapping the jar in an exe &amp; a system tray controller.</p>
 
 
     <code>~/chiihou/projects/steamlog><a href="javascript:history.back()">cd ..</a></code><br>

@@ -53,6 +53,7 @@
 <h1><span class="title">Inilib</span></h1>
 
 <h2 class="description">c&#43;&#43; .ini parser</h2>
+<h2 class="status">Core | Dropped</h2>
 
 <p class="terms">
   
@@ -70,7 +71,7 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#links">/links</a></li>
-    <li><a href="#inspiration">/inspiration</a></li>
+    <li><a href="#motivation">/motivation</a></li>
     <li><a href="#technologies">/technologies</a></li>
     <li><a href="#implementation">/implementation</a></li>
     <li><a href="#conclusions">/conclusions</a></li>
@@ -86,7 +87,9 @@
 <ul>
 <li><a href="https://github.com/cheiily/IniLib">https://github.com/cheiily/IniLib</a></li>
 </ul>
-<h2 id="inspiration">/inspiration</h2>
+<h2 id="motivation">/motivation</h2>
+<p>First real jab at a &lsquo;personal project&rsquo;, inspired by a uni task requiring us to parse data from a chosen text format.
+Also first time using a testing framework.</p>
 <h2 id="technologies">/technologies</h2>
 <ul>
 <li>C++17</li>
@@ -94,7 +97,11 @@
 <li>Cmake</li>
 </ul>
 <h2 id="implementation">/implementation</h2>
+<p>The project uses an organized sample-based testing layout. The output structure is organized into a map-based section tree with string entries.
+Smart pointers are used to manage the memory and lifetimes of each tree node.</p>
 <h2 id="conclusions">/conclusions</h2>
+<p>The core feature of the tool was realized and is fully functional - the tool correctly parses the base ini format and turns it into a functional, traversable tree.
+Unfortunately distracted by the increasingly busy semester plan as well as the release of Elden Ring :), the other planned features were left unimplemented.</p>
 
 
     <code>~/chiihou/projects/inilib><a href="javascript:history.back()">cd ..</a></code><br>

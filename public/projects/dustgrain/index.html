@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Dustloop scraper util with CLI interface">
+    <title>dustgrain ¦ chiihou</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+	<link rel="stylesheet" href="/css/theme-override.css">
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/chiihou</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/blog/">~/blog</a>
+        <i class=""></i>
+      </li>
+      
+      
+      <li class="pull-right">
+        <a href="/projects/">~/projects</a>
+        <i class=""></i>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Dustgrain</span></h1>
+
+<h2 class="description">Dustloop scraper util with CLI interface</h2>
+<h2 class="status">Finished | Closed</h2>
+
+<p class="terms">
+  
+  
+  
+  
+  
+</p>
+</div>
+
+
+  
+  <div id="table-of-contents">
+    <h2>table of contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#links">/links</a></li>
+    <li><a href="#motivation">/motivation</a></li>
+    <li><a href="#technologies">/technologies</a></li>
+    <li><a href="#implementation">/implementation</a></li>
+    <li><a href="#conclusions">/conclusions</a></li>
+  </ul>
+</nav>
+  </div>
+  
+
+
+<div class="content-wrapper">
+  <main>
+    <h2 id="links">/links</h2>
+<ul>
+<li><a href="https://github.com/cheiily/DustGrain">https://github.com/cheiily/DustGrain</a></li>
+</ul>
+<h2 id="motivation">/motivation</h2>
+<p>While hanging around the FGC and then developing <a href="/projects/heartblazer">HeartBlazer</a>, I&rsquo;ve always been thinking how cool it would be to have a quick reference lookup whenever I wanted to check some frame data or the like. The caveat was that there was no decent tool available out there. I&rsquo;ve also been looking at writing some basic project to kickstart the kotlin learning.<br>
+So I took the opportunity that Java interoperates with Kotlin, and decided to make one myself.</p>
+<h2 id="technologies">/technologies</h2>
+<ul>
+<li>Kotlin
+<ul>
+<li>Clikt</li>
+<li>Jsoup</li>
+</ul>
+</li>
+</ul>
+<h2 id="implementation">/implementation</h2>
+<p>I started with the idea that it was going to be just a submodule for the bot but while developing I diverged to also make it a CLI tool, just because I&rsquo;d been really wanting to do put that into any project for a while, but none were quite fitting before this.</p>
+<p>The tool&rsquo;s core utilizes Java-interop to interact with Jsoup, the library of choice for HTML parsing.
+As it is a scraper, it is obviously dependent on Dustloop&rsquo;s element layout but considering its consistency across numerous sub-wikis, I believe it should not be a concern in the nearest future.
+The tool, however, is suited to pull data from multiple wikis as it navigates the structure via selectors and accesses a parsed URL based on user input, rather than having hardcoded values. As there is no facilitation for matching inexact user input to the obtained values, the input criteria is very strict.</p>
+<p>For the CLI interface, I decided to use Clikt as it was the most popular actively-maintained argument parser available. Its structure proved rather surprising to me, as it was more of a full CLI-tool framework than just simple parser, but nevertheless I grew to like it.</p>
+<h2 id="conclusions">/conclusions</h2>
+<p>This project while very simple in essence allowed me to get a basic grasp on Kotlin&rsquo;s semantics and workings, as well as the JVM interoperability. I&rsquo;ve also learnt about the structure of a CLI tool, which was pretty satisfying.</p>
+<p>All of the basic funtionality I&rsquo;ve inteded for it has been implemented so the project can be marked closed and finished.
+Optionally, if I ever feel like coming back to this, I may add some regex-based input-to-move matching or a list-wiki and list-characters command. Possibly while working this into HeartBlazer. Who knows.</p>
+
+
+    <code>~/chiihou/projects/dustgrain><a href="javascript:history.back()">cd ..</a></code><br>
+    <code>~/chiihou/projects/dustgrain><a href="/">cd ~/chiihou</a></code>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <div class="pull-right">built with <a href="https://gohugo.io/">hugo</a> | themed <a href="https://github.com/goodroot/hugo-classic">hugo-classic</a> by goodroot | cheily 2024</div>
+      
+    </footer>
+  </body>
+</html>
+

@@ -6,49 +6,48 @@
     <description>Recent content in root on chiihou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jan 2024 23:44:25 +0100</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>git commit -a -F init_commit.txt</title>
-      <link>/blog/post/001/</link>
-      <pubDate>Wed, 10 Jan 2024 23:44:25 +0100</pubDate>
-      <guid>/blog/post/001/</guid>
-      <description>This is the first blog post commemorating me finishing work on this template. I&amp;rsquo;ve been thinking about getting a domain and making a landing website for quite a while now, also using the domain for mail, file hosting, etc; but could never pay enough effort where it was due. Finally I was inspired by haiiro and reading about hugo made it seem like it&amp;rsquo;s gonna be a 2 hour task max.</description>
-    </item>
     <item>
       <title>chiihou</title>
       <link>/projects/chiihou/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/chiihou/</guid>
-      <description>/links here https://github.com/cheiily/hugo-site /inspiration /technologies Hugo VPS /implementation /conclusions </description>
+      <description>/links this website https://github.com/cheiily/hugo-site /motivation An idea of a personal landing/resume website has been going around my head for a while but the final push was seeing a befriended developer&amp;rsquo;s small, personal blog built with Hugo. This introduced me to the concept of static website generators and how rather simple they were to use. As a form of procrastination from uni work, first came the website&amp;rsquo;s layout and much later the content.</description>
+    </item>
+    <item>
+      <title>dustgrain</title>
+      <link>/projects/dustgrain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/dustgrain/</guid>
+      <description>/links https://github.com/cheiily/DustGrain /motivation While hanging around the FGC and then developing HeartBlazer, I&amp;rsquo;ve always been thinking how cool it would be to have a quick reference lookup whenever I wanted to check some frame data or the like. The caveat was that there was no decent tool available out there. I&amp;rsquo;ve also been looking at writing some basic project to kickstart the kotlin learning.&#xA;So I took the opportunity that Java interoperates with Kotlin, and decided to make one myself.</description>
     </item>
     <item>
       <title>heartblazer</title>
       <link>/projects/heartblazer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/heartblazer/</guid>
-      <description>-&amp;gt; Minimal discord chatbot application providing utility for a local FGC server built with the JDA5 discord API wrapper. -&amp;gt; Allows pin-management for thread-owners within event- and advice-forums. -&amp;gt; Provides a functional base for future expansion if necessary.&#xA;/links https://github.com/cheiily/HeartBlazer /inspiration /technologies JDA5 Java 17 Gradle build system /implementation /conclusions </description>
+      <description>-&amp;gt; Minimal discord chatbot application providing utility for a local FGC server. -&amp;gt; Built with the JDA5 discord API wrapper. -&amp;gt; Allows pin-management for thread-owners within event- and advice-forums. -&amp;gt; Integrates with Dustgrain for easy data lookup straight from discord. -&amp;gt; Provides a functional base for future expansion if necessary.&#xA;/links https://github.com/cheiily/HeartBlazer /motivation HaB is the european community central for Granblue Fantasy Versus and GBVS: Rising (with sections for a few other games like GGXRD).</description>
     </item>
     <item>
       <title>inilib</title>
       <link>/projects/inilib/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/inilib/</guid>
-      <description>/links https://github.com/cheiily/IniLib /inspiration /technologies C++17 Boost Cmake /implementation /conclusions </description>
+      <description>/links https://github.com/cheiily/IniLib /motivation First real jab at a &amp;lsquo;personal project&amp;rsquo;, inspired by a uni task requiring us to parse data from a chosen text format. Also first time using a testing framework.&#xA;/technologies C++17 Boost Cmake /implementation The project uses an organized sample-based testing layout. The output structure is organized into a map-based section tree with string entries. Smart pointers are used to manage the memory and lifetimes of each tree node.</description>
     </item>
     <item>
       <title>scoreboard</title>
       <link>/projects/scoreboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/scoreboard/</guid>
-      <description>GUI Application made with JavaFX. The application is a tool for Tournament Organizers to help manage streaming overlays for match scoreboards. Allows loading, selection, modification of relevant match data with output in the specified path. Allows loading and in-app edition of relevant player data, commentary data, round labeling, etc. Planned features for full release include web-overlays, hosted locally, and data import from tournament management websites such as challonge.&#xA;The project has been under development since spring 2023 and is working towards the first full release, with a couple pre-release builds available.</description>
+      <description>Note: My focus was temporarily stolen away by DustGrain, but this should see some action in the coming months again.&#xA;GUI Application made with JavaFX. The application is a tool for Tournament Organizers to help manage streaming overlays for match scoreboards. Allows loading, selection, modification of relevant match data with output in the specified path. Allows loading and in-app edition of relevant player data, commentary data, round labeling, etc. Planned features for full release include web-overlays hosted locally, and data import from tournament management websites such as challonge.</description>
     </item>
     <item>
       <title>steamlog</title>
       <link>/projects/steamlog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/steamlog/</guid>
-      <description>Background CLI application frequently polling the Steam API to create a local play history for further analysis. Built in Java.&#xA;/links https://github.com/cheiily/SteamLog_Puller /inspiration /technologies Java 17 /implementation /conclusions </description>
+      <description>Background CLI application frequently polling the Steam API to create a local play history for further analysis. Built in Java.&#xA;/links https://github.com/cheiily/SteamLog_Puller /motivation Frustrated by the lack of any extensive history analysis tool for steam history, as steam only offers playtime and a monthly breakdown with the yearly summary, I decided to write a tool that could gather such info for myself.&#xA;/technologies Java 17 logback /implementation The project contains a couple of structures to represent the steam API response value and a connection(request) builder being ran in a looping thread.</description>
     </item>
   </channel>
 </rss>
