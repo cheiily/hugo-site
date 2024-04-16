@@ -2,8 +2,7 @@
 title = 'dustgrain'
 description = "Dustloop scraper util with CLI interface"
 toc = true
-draft = true
-status = "Closed & Finished"
+status = "Finished | Closed"
 type = "project"
 +++
 
@@ -11,7 +10,7 @@ type = "project"
 
 - https://github.com/cheiily/DustGrain
 
-## /inspiration
+## /motivation
 
 While hanging around the FGC and then developing [HeartBlazer](/projects/heartblazer), I've always been thinking how cool it would be to have a quick reference lookup whenever I wanted to check some frame data or the like. The caveat was that there was no decent tool available out there. I've also been looking at writing some basic project to kickstart the kotlin learning.\
 So I took the opportunity that Java interoperates with Kotlin, and decided to make one myself.
@@ -31,8 +30,6 @@ As it is a scraper, it is obviously dependent on Dustloop's element layout but c
 The tool, however, is suited to pull data from multiple wikis as it navigates the structure via selectors and accesses a parsed URL based on user input, rather than having hardcoded values. As there is no facilitation for matching inexact user input to the obtained values, the input criteria is very strict.
 
 For the CLI interface, I decided to use Clikt as it was the most popular actively-maintained argument parser available. Its structure proved rather surprising to me, as it was more of a full CLI-tool framework than just simple parser, but nevertheless I grew to like it.
-
-The project can be loosely categorized with an MVVM structure, with the Model clearly separated (can be easily used from external JVM code), the View and ViewModel parts being shell interface and the Clikt framework.
 
 ## /conclusions
 

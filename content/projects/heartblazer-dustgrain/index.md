@@ -9,7 +9,7 @@ status = "In Progress"
 
 ## /links
 
-## /inspiration
+## /motivation
 
 ## /technologies
 

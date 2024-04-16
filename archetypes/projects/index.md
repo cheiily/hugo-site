@@ -9,7 +9,7 @@ status = ""
 
 ## /links
 
-## /inspiration
+## /motivation
 
 ## /technologies
 
