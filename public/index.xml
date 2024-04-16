@@ -12,7 +12,7 @@
       <link>/projects/chiihou/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/chiihou/</guid>
-      <description>/links this website https://github.com/cheiily/hugo-site /motivation An idea of a personal landing/resume website has been going around my head for a while but the final push was seeing a befriended developer&amp;rsquo;s small, personal blog built with Hugo. This introduced me to the concept of static website generators and how rather simple they were to use. As a form of procrastination from uni work, first came the website&amp;rsquo;s layout and much later the content.</description>
+      <description>/links this website https://github.com/cheiily/hugo-site /motivation An idea of a personal landing/resume website has been going around my head for a while but the final push was seeing a befriended developer&amp;rsquo;s small, personal blog built with Hugo. This introduced me to the whole concept of static website generators. As a form of procrastination from uni work, first came the website&amp;rsquo;s layout and much later the content.&#xA;/technologies Hugo VPS /implementation Hugo utilizes Go templates for (partial) layout specifications and allows for easy import of pre-defined themes.</description>
     </item>
     <item>
       <title>dustgrain</title>

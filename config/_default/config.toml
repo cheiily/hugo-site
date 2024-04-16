@@ -27,12 +27,6 @@ tabWidth = 4
   category = "blog/categories"
   tag = "blog/tags"
 
-
-[permalinks]
-post = "/blog/post/:slug/"
-[permalinks.term]
-category = "/blog/categories/:slug/"
-tag = "/blog/tags/:slug/"
 #[[menu.main]]
 [[menu.feed]]
 name = "blog"
@@ -48,3 +42,9 @@ weight = 2
 custom_css = ["/css/theme-override.css"]
 description = "A simple, minimal blog for those who love text."
 footer = "built with [hugo](https://gohugo.io/) | themed [hugo-classic](https://github.com/goodroot/hugo-classic) by goodroot | cheily 2024"
+
+[permalinks]
+post = "/blog/post/:slug/"
+[permalinks.term]
+category = "/blog/categories/:slug/"
+tag = "/blog/tags/:slug/"
