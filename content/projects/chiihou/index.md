@@ -13,7 +13,7 @@ type = "project"
 
 ## /motivation
 
-An idea of a personal landing/resume website has been going around my head for a while but the final push was seeing a befriended developer's small, personal blog built with Hugo. This introduced me to the concept of static website generators and how rather simple they were to use. \
+An idea of a personal landing/resume website has been going around my head for a while but the final push was seeing a befriended developer's small, personal blog built with Hugo. This introduced me to the whole concept of static website generators. \
 As a form of procrastination from uni work, first came the website's layout and much later the content.
 
 ## /technologies
