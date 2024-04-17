@@ -11,8 +11,8 @@ description: "chiihou"
   alt="Djeeter">
 </a>
 
-## :sparkles: chiihou :sparkles:
-### :sparkles:🌎 blessing of the earth 🌎:sparkles:
+## :sparkles: <ins>chiihou</ins> :sparkles:
+### :sparkles:🌎 *blessing of the earth* 🌎:sparkles:
 ## ~~~~~~~~~~~~~~~~~~~~~~~
 
 Hi, I'm cheily. 
@@ -27,9 +27,9 @@ Other than that my hobbies include gaming (gacha too - HSR, Resleriana), cycling
 
 I've been dabbling with programming since as far back as middle school and it's been a hobby for a large part of my life, which then became my major and hopefully my job in the future :)
 
-Here you'll find my projects and a personal blog about whatever i find worth mentioning. Kinda a middle ground between twitter and linkedin. \
+<ins>**Here you'll find a list of my projects**</ins> and a rather empty personal blog for whenever I find something worth sharing with the world. \
 Unfortunately you won't find any game projects as I don't have a whole lot in my sleeve yet, but I'm very actively working to change that! Look forward to these! \
-Go ahead and browse, feel free to reach out for any reason, project- or interest-related, or literally anything else (silly reasons encouraged!!)
+Go ahead and browse, feel free to reach out for any reason, project- or interest-related, or literally anything else (*silly reasons encouraged!!*)
 
 ## May your internet travels be 🥮🐉🀅 **fortuitous** 🀅🐉🥮!
 ---

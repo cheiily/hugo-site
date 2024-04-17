@@ -29,5 +29,5 @@ Each request is analyzed and if it is different from the last recorded status - 
 
 ## /conclusions
 
-This project was my first real look into using a real logging framework and customizing one to my needs, and in that I can declare it successful. Sadly, I have not put this to as much use as I would've liked to, including not having made the visual analyzer of the saved data. Potential QoL would include wrapping the jar in an exe & a system tray controller.
+This project was my first real look into using a real logging framework and customizing one to my needs, and in that I can declare it successful. Sadly, I have not put this to as much use as I would've liked to, including not having made the visual analyzer. It's not completely off my radar, there are just higher priorities currently.
 
