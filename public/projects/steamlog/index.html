@@ -100,7 +100,7 @@ Built in Java.</p>
 <p>The project contains a couple of structures to represent the steam API response value and a connection(request) builder being ran in a looping thread. The tracked profiles can be configured via UID or Vanity ID through config.ini, which also handles the api key as well as refresh behavior configuration - the delay of subsequent requests as well as failed request amount thresholds that controll when to go to the next level of delay, in order to save api calls as Valve puts a daily limit on that.
 Each request is analyzed and if it is different from the last recorded status - it is serialized and saved to file via a customized logback setup. From there it can be analyzed further for a visual representation of the recorded history.</p>
 <h2 id="conclusions">/conclusions</h2>
-<p>This project was my first real look into using a real logging framework and customizing one to my needs, and in that I can declare it successful. Sadly, I have not put this to as much use as I would&rsquo;ve liked to, including not having made the visual analyzer of the saved data. Potential QoL would include wrapping the jar in an exe &amp; a system tray controller.</p>
+<p>This project was my first real look into using a real logging framework and customizing one to my needs, and in that I can declare it successful. Sadly, I have not put this to as much use as I would&rsquo;ve liked to, including not having made the visual analyzer. It&rsquo;s not completely off my radar, there are just higher priorities currently.</p>
 
 
     <code>~/chiihou/projects/steamlog><a href="javascript:history.back()">cd ..</a></code><br>
