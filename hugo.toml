@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'http://cheily.one/'
 languageCode = 'en-us'
 title = 'chiihou'
 theme = 'hugo-classic'

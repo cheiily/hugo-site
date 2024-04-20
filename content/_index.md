@@ -1,44 +1,44 @@
 ---
 title: root
-description: "chiihou"
+---
+<style>
+  table {  text-align: center;  }
+  th {  display: none;  }
+</style>
+
+<div align="center">
+
+Hi! My name is Grzegorz, online I often go by the handle 'cheily'. \
+I'm a student at the Technical University of Lodz (Politechnika Łódzka), with Applied Computer Science as my major, specializing in Computer Simulation and Games Technologies.
+
+Programming has been my interest all the way back since middle school when I introduced myself to c++ and since then I've always been hacking something up in my free time, as a hobby - whether it be a custom Discord bot with JDA, a simple text-based Game of Life simulation or a minimal CLI flashcards tool. 
+
+<ins>**On this website you will find a selection of my personal projects**</ins>, all done after I joined the university. For each there is a short summary on the taxonomy page and an extended description in their own article. None of them are game projects (despite my specialization), but I'm actively working on a number of them right now and they will definitely find their place here in the future.
+
+</div>
+
 ---
 
-<a href="https://www.dustloop.com/w/GBVSR/Djeeta">
-<img
-  id="foxy"
-  src="/images/djeeta/Conqueror_of_the_eternals.png"
-  width="400"
-  alt="Djeeter">
-</a>
+<h3 align = "center">Technologies</h3>
 
-## :sparkles: <ins>chiihou</ins> :sparkles:
-### :sparkles:🌎 *blessing of the earth* 🌎:sparkles:
-## ~~~~~~~~~~~~~~~~~~~~~~~
+The course has had me use a number of different languages and frameworks, which in turn only increased my curiosity to try out more, that were not required in the curriculum. All in all they include:
 
-Hi, I'm cheily. 
+|                                          |                                          |
+| ---------------------------------------- | ---------------------------------------- |
+| Java <br> JavaFX, JDA4/5, logback, MySQL | Kotlin <br> Clikt, Jsoup                 |
+| C# <br> .Net, .Net Framework, Unity      | C++ <br> Boost, Dear ImGui, spdlog       |
+| Python <br> Matplot, Pandas, Numpy       |  Javascript, CSS <br> DOM, XML, Schema   |
+| Cisco <br> Routing, DNS, DHCP            | Linux <br> Fedora, Debian, Ubuntu        |
+| Perl                                     | Rust                                     |
+| SQL, MySQL, Firebase                     | UML                                      |
 
-I'm a \
-• third-year 👨‍💻compsci👾 student in the game-dev specialization, \
-• 🤼fighting⚔️game🕹️ enthusiast and TO for GBVS(R), \
-• leisure 🀅riichi🀄mahjong🀆 player, \
-• ⛩️animanga🌸 consumer, \
-• 💿 CD 📀 collector & retro📼tech enjoyer. \
-Other than that my hobbies include gaming (gacha too - HSR, Resleriana), cycling and ground tennis.
-
-I've been dabbling with programming since as far back as middle school and it's been a hobby for a large part of my life, which then became my major and hopefully my job in the future :)
-
-<ins>**Here you'll find a list of my projects**</ins> and a rather empty personal blog for whenever I find something worth sharing with the world. \
-Unfortunately you won't find any game projects as I don't have a whole lot in my sleeve yet, but I'm very actively working to change that! Look forward to these! \
-Go ahead and browse, feel free to reach out for any reason, project- or interest-related, or literally anything else (*silly reasons encouraged!!*)
-
-## May your internet travels be 🥮🐉🀅 **fortuitous** 🀅🐉🥮!
 ---
-### links
-- email: cheily.public+chiihou@gmail.com
-- email (work inquiries): ludziejewski.kontakt@gmail.com
+
+<h3 align = "center">Links</h3>
+
+- email: ludziejewski.kontakt@gmail.com
 - github: https://github.com/cheiily
-- twitter (mostly TO-related): https://twitter.com/cheily_p
-- discord: https://discord.com/users/302388837525487617
+- linkedin: https://www.linkedin.com/in/grzegorz-ludziejewski/
 
 <!-- or leave a message: \ -->
 <!-- <input type="textarea" id="message" name="t-message" rows="4" cols="50"/>
@@ -47,7 +47,3 @@ Go ahead and browse, feel free to reach out for any reason, project- or interest
   window.open('mailto:website@chiihou.one?subject=message&body='+body);
 ">submit</button> -->
 
-<small><small>
-If you're interested, *chiihou* (en. "Blessing of the earth") is a *yaku* (win condition, main point source) in riichi mahjong - it happens when you are not the dealer and your hand is completed on the first tile draw. It comes in pair with *tenhou* ("Blessing of heaven"), which happens when you are the dealer. Both are worth *yakuman* - one of the heighest scoring hands possible. \
-I was not so much inspired by its mechanic as much as by its title - information technology, computers and digitalization in general are crazy feats of engineering only possible because of the limitless human ingenuity and centuries of inventions - all borne of humans, inhabitans of the earth. But perhaps the local *yaku* "Blessing of Man" would have been more fitting...
-</small></small>

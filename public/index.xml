@@ -36,6 +36,13 @@
       <description>/links https://github.com/cheiily/IniLib /motivation First real jab at a &amp;lsquo;personal project&amp;rsquo;, inspired by a uni task requiring us to parse data from a chosen text format. Also first time using a testing framework.&#xA;/technologies C++17 Boost Cmake /implementation The project uses an organized sample-based testing layout. The output structure is organized into a map-based section tree with string entries. Smart pointers are used to manage the memory and lifetimes of each tree node.</description>
     </item>
     <item>
+      <title>personal</title>
+      <link>/personal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/personal/</guid>
+      <description>&amp;#x2728; chiihou &amp;#x2728; &amp;#x2728;🌎 blessing of the earth 🌎&amp;#x2728; ~~~~~~~~~~~~~~~~~~~~~~~ Hi, I&amp;rsquo;m cheily.&#xA;I&amp;rsquo;m a • third-year 👨‍💻compsci👾 student in the game-dev specialization, • 🤼fighting⚔️game🕹️ enthusiast and TO for GBVS(R), • leisure 🀅riichi🀄mahjong🀆 player, • ⛩️animanga🌸 consumer, • 💿 CD 📀 collector &amp;amp; retro📼tech enjoyer. Other than that my hobbies include gaming (gacha too - HSR, Resleriana), cycling and ground tennis.&#xA;I&amp;rsquo;ve been dabbling with programming since as far back as middle school and it&amp;rsquo;s been a hobby for a large part of my life, which then became my major and hopefully my job in the future :)</description>
+    </item>
+    <item>
       <title>scoreboard</title>
       <link>/projects/scoreboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

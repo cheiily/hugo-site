@@ -17,6 +17,15 @@
       </li>
       {{end}}
 
+      {{ if eq .Params.personal true }}
+        {{ range .Site.Menus.personal }}
+        {{ $name := lower .Name}}
+        <li class="pull-right">
+          <a href="{{ .URL }}">~/{{ lower .Name}}</a>
+          <i class="{{ .Pre }}"></i>
+        </li>
+        {{end}}
+      {{ end }}
       {{ range .Site.Menus.feed }}
       {{ $name := lower .Name}}
       <li class="pull-right">

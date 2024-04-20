@@ -29,12 +29,16 @@ tabWidth = 4
 
 #[[menu.main]]
 [[menu.feed]]
-name = "blog"
-url = "/blog/"
-weight = 1
-[[menu.feed]]
 name = "projects"
 url = "/projects/"
+weight = 2
+[[menu.personal]]
+name = "personal"
+url = "/personal/"
+weight = 1
+[[menu.personal]]
+name = "blog"
+url = "/blog/"
 weight = 2
 
 
