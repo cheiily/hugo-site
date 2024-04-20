@@ -9,6 +9,8 @@ menu:
     weight: 1
 ---
 
+<!-- Todo make this a subdomain -->
+
 <a href="https://www.dustloop.com/w/GBVSR/Djeeta">
 <img
   id="foxy"
