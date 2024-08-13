@@ -2,7 +2,7 @@
 title = 'scoreboard'
 description = "JavaFX app for managing tournament streaming overlays"
 toc = true
-status = "Ongoing | v0.2"
+status = "v0.2"
 type = "project"
 +++
 

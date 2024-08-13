@@ -2,7 +2,7 @@
 title = 'chiihou'
 description = "Personal landing website made with Hugo"
 toc = true
-status = "Finished | Upkeep"
+status = "Upkeep"
 type = "project"
 +++
 

@@ -2,7 +2,7 @@
 title = 'inilib'
 description = "c++ .ini parser"
 toc = true
-status = "Core | Dropped"
+status = "Closed"
 type = "project"
 +++
 

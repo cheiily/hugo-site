@@ -2,7 +2,7 @@
 title = 'dustgrain'
 description = "Dustloop scraper util with CLI interface"
 toc = true
-status = "Finished | Closed"
+status = "v2.0.3"
 type = "project"
 +++
 

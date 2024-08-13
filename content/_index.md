@@ -13,7 +13,7 @@ I'm a student at the Technical University of Lodz (Politechnika Łódzka), with 
 
 Programming has been my interest all the way back since middle school when I introduced myself to c++ and since then I've always been hacking something up in my free time, as a hobby - whether it be a custom Discord bot with JDA, a simple text-based Game of Life simulation or a minimal CLI flashcards tool. 
 
-<ins>**On this website you will find a selection of my personal projects**</ins>, all done after I joined the university. For each there is a short summary on the taxonomy page and an extended description in their own article. None of them are game projects (despite my specialization), but I'm actively working on a number of them right now and they will definitely find their place here in the future.
+<ins>**On this website you will find most of my personal projects**</ins>, regardless of their state - some were finished and some were dropped. I believe it's important to learn from failures and be proud of the attempts. They were all started after I enlisted at the university. For each there is a short summary on the taxonomy page and an extended description in their own article.
 
 </div>
 
@@ -23,14 +23,14 @@ Programming has been my interest all the way back since middle school when I int
 
 The course has had me use a number of different languages and frameworks, which in turn only increased my curiosity to try out more, that were not required in the curriculum. All in all they include:
 
-|                                          |                                          |
-| ---------------------------------------- | ---------------------------------------- |
-| Java <br> JavaFX, JDA4/5, logback, MySQL | Kotlin <br> Clikt, Jsoup                 |
-| C# <br> .Net, .Net Framework, Unity      | C++ <br> Boost, Dear ImGui, spdlog       |
-| Python <br> Matplot, Pandas, Numpy       |  Javascript, CSS <br> DOM, XML, Schema   |
-| Cisco <br> Routing, DNS, DHCP            | Linux <br> Fedora, Debian, Ubuntu        |
-| Perl                                     | Rust                                     |
-| SQL, MySQL, Firebase                     | UML                                      |
+|                                                      |                                                         |
+| ---------------------------------------------------- | ------------------------------------------------------- |
+| Java <br> JavaFX, JDA4/5, logback, MySQL             | Kotlin <br> Clikt, Jsoup                                |
+| C# <br> .Net, .Net Framework                         | C++ <br> Boost, Dear ImGui, spdlog                      |
+| Python <br> Matplot, Pandas, Numpy                   | Javascript, CSS <br> DOM, XML, Schema                   |
+| Cisco <br> Routing, DNS, DHCP                        | Linux <br> Fedora, Debian, Ubuntu                       |
+| Perl, Rust                                           | SQL, MySQL, Firebase                                    |
+| Game Engines & Frameworks <br> Unity, SDL, GameMaker | Game Engine Utilities <br> imgui, assimp, tracy, OpenGL |
 
 ---
 
@@ -39,6 +39,7 @@ The course has had me use a number of different languages and frameworks, which 
 - email: ludziejewski.kontakt@gmail.com
 - github: https://github.com/cheiily
 - linkedin: https://www.linkedin.com/in/grzegorz-ludziejewski/
+- itch: https://cheily.itch.io/
 
 <!-- or leave a message: \ -->
 <!-- <input type="textarea" id="message" name="t-message" rows="4" cols="50"/>

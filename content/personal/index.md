@@ -35,8 +35,7 @@ Other than that my hobbies include gaming (gacha too - HSR, Resleriana), cycling
 
 I've been dabbling with programming since as far back as middle school and it's been a hobby for a large part of my life, which then became my major and hopefully my job in the future :)
 
-<ins>**Here you'll find a list of my projects**</ins> and a rather empty personal blog for whenever I find something worth sharing with the world. \
-Unfortunately you won't find any game projects as I don't have a whole lot in my sleeve yet, but I'm very actively working to change that! Look forward to these! \
+This is the "private" part of the website that is not directly accessible from the homepage - that part is for presenting my "resume" in a slightly more professional matter. You can share your thoughts about that part too if you want, I'd appreciate it. \
 Go ahead and browse, feel free to reach out for any reason, project- or interest-related, or literally anything else (*silly reasons encouraged!!*)
 
 ## May your internet travels be 🥮🐉🀅 **fortuitous** 🀅🐉🥮!

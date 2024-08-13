@@ -2,7 +2,7 @@
 title = 'steamlog'
 description = "CLI background app creating steam play history"
 toc = true
-status = "Finished (pt.1) | Closed"
+status = "Closed"
 type = "project"
 +++
 
