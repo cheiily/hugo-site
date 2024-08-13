@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Private GameMaker gamejam (2024) submission">
+    <title>kosmische kriege ¦ chiihou</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+	<link rel="stylesheet" href="/css/theme-override.css">
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/chiihou</a>
+      </li>
+      
+
+      
+      
+      
+      <li class="pull-right">
+        <a href="/projects/">~/projects</a>
+        <i class=""></i>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Kosmische Kriege</span></h1>
+
+<h2 class="description">Private GameMaker gamejam (2024) submission</h2>
+
+
+<p class="terms">
+  
+  
+  
+  
+  
+</p>
+</div>
+
+
+  
+  <div id="table-of-contents">
+    <h2>table of contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#links">/links</a></li>
+    <li><a href="#motivation">/motivation</a></li>
+    <li><a href="#technologies">/technologies</a></li>
+    <li><a href="#implementation">/implementation</a></li>
+    <li><a href="#conclusions">/conclusions</a></li>
+  </ul>
+</nav>
+  </div>
+  
+
+
+<div class="content-wrapper">
+  <main>
+    <h2 id="links">/links</h2>
+<ul>
+<li><a href="https://cheily.itch.io/kosmischekriege">https://cheily.itch.io/kosmischekriege</a></li>
+</ul>
+<h2 id="motivation">/motivation</h2>
+<p>Submission to a small, private, online gamejam, coined the &lsquo;GameMakerJam&rsquo;, mostly dedicated to getting a firmer grasp on the engine. <br>
+We finished #1.</p>
+<h2 id="technologies">/technologies</h2>
+<ul>
+<li>Gamemaker</li>
+</ul>
+<h2 id="implementation">/implementation</h2>
+<p>We decided to pick up an old idea of a multiplayer tanks-in-space genre game and our initial intent was to use the beta framework for rollback, provided by the engine &amp; OperaGX servers. That unfortunately did not work out though, and the game ended up being local multiplayer for 2-4 players - although fully playable over input-sharing software such as Parsec.</p>
+<p>The jam topic keyword was &lsquo;outlier&rsquo; and we interpreted it the way that, once you survive a round you become the outlier, standing out from the rest as the only survivor, and then to properly win the game you need to survive again, while in that state. If you die, you leave that state for the sake of this round&rsquo;s survivor.</p>
+<p>I myself, once again, took the part of the programmer and am responsible for the entirety of the gameplay logic.</p>
+<h2 id="conclusions">/conclusions</h2>
+<p>It was once again very fun to team up together and spend those 48h working (or just hanging out) together. <br>
+Especially with the sort of game it was, it was really cool to just connect with other people and sit down for a &ldquo;testing&rdquo; session over Parsec anytime we had some adjustments to try out. Unfortunate that the initial plan of using the rollback netcode didn&rsquo;t work out but it is what it is. I would need to give it a solid shot again, starting from scratch, which the time limit didn&rsquo;t allow back then.</p>
+<p>The jam once again left me wanting more and as for the game - I&rsquo;m definitely going to use it in the future as a small party game for some 15-20 minutes of good fun. :)</p>
+
+
+    <code>~/chiihou/projects/kosmische-kriege><a href="javascript:history.back()">cd ..</a></code><br>
+    <code>~/chiihou/projects/kosmische-kriege><a href="/">cd ~/chiihou</a></code>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <div class="pull-right">built with <a href="https://gohugo.io/">hugo</a> | themed <a href="https://github.com/goodroot/hugo-classic">hugo-classic</a> by goodroot | cheily 2024</div>
+      
+    </footer>
+  </body>
+</html>
+

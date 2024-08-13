@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ZTGK 2024 submission for Game Development">
+    <title>scrub squad ¦ chiihou</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+	<link rel="stylesheet" href="/css/theme-override.css">
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/chiihou</a>
+      </li>
+      
+
+      
+      
+      
+      <li class="pull-right">
+        <a href="/projects/">~/projects</a>
+        <i class=""></i>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Scrub Squad</span></h1>
+
+<h2 class="description">ZTGK 2024 submission for Game Development</h2>
+<h2 class="status">Finalized</h2>
+
+<p class="terms">
+  
+  
+  
+  
+  
+</p>
+</div>
+
+
+  
+  <div id="table-of-contents">
+    <h2>table of contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#links">/links</a></li>
+    <li><a href="#motivation">/motivation</a></li>
+    <li><a href="#technologies">/technologies</a></li>
+    <li><a href="#implementation">/implementation</a></li>
+    <li><a href="#conclusions">/conclusions</a></li>
+  </ul>
+</nav>
+  </div>
+  
+
+
+<div class="content-wrapper">
+  <main>
+    <h2 id="links">/links</h2>
+<ul>
+<li><a href="https://bubble-bliss-games.itch.io/scrub-squad">https://bubble-bliss-games.itch.io/scrub-squad</a></li>
+</ul>
+<h2 id="motivation">/motivation</h2>
+<p>This was the submission to the 2024 ZTGK contest in the Game Development category, which requries the games to be made on their own, dedicated engine.
+The contest was also required for us to submit to as part of our coursework. <br>
+We qualifed as the finialists in the contest.</p>
+<h2 id="technologies">/technologies</h2>
+<ul>
+<li>OpenGL</li>
+<li>Assimp</li>
+<li>ImGui (engine-only)</li>
+<li>Tracy profiler</li>
+<li>SDL (audio module only)</li>
+</ul>
+<h2 id="implementation">/implementation</h2>
+<p>As dictated by the course, our game ideas had to incorporate in them a couple of randomly selected topics.
+Ours, after discussion and some prototyping led us to a small, bathroom-themed RTS with a main objective of finding and recovering deposits of (laundry-themed) ore.</p>
+<p>Within the 5-person team, I was one of the programmers and was mainly responsible for:</p>
+<ul>
+<li>the UI system &amp; UI interactions</li>
+<li>the signal queue (engine)</li>
+<li>in-game item &amp; equipment logic as well as concrete item implementations</li>
+<li>large parts of the combat &amp; item-usage logic</li>
+<li>unit/tile selection &amp; tile highlighting</li>
+<li>etc&hellip;</li>
+</ul>
+<h2 id="conclusions">/conclusions</h2>
+<p>This was easily the largest project I have yet taken part in, with the largest amount of work hours and effort put into it and so despite a number of its shortcomings, which mostly resulted from still lacking work-hours to be put into polishing the game, mine and the team&rsquo;s general conclusion was that we were quite proud of the game we had created. Of course there&rsquo;s lessons to be learnt, mostly about managing time and work, in-team communications, feature design and development planning as required by the deadlines, etc. We still did our best to make the game deliver to its promises and it a fully playable product with a functional core loop that you can experience, play and finish. <br>
+All in all it was a very fun, albeit extremely busy semester, but I hope I can take part in projects of similar scale in the future :)</p>
+
+
+    <code>~/chiihou/projects/scrub-squad><a href="javascript:history.back()">cd ..</a></code><br>
+    <code>~/chiihou/projects/scrub-squad><a href="/">cd ~/chiihou</a></code>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <div class="pull-right">built with <a href="https://gohugo.io/">hugo</a> | themed <a href="https://github.com/goodroot/hugo-classic">hugo-classic</a> by goodroot | cheily 2024</div>
+      
+    </footer>
+  </body>
+</html>
+
